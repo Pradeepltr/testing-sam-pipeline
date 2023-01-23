@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "pqr"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1apz8qcg4hd5s"
+s3_prefix = "pqr"
+region = "ap-south-1"
+profile = "pradeep"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
